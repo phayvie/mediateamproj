@@ -1,1 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #ffffff;
+    color: black;
+  
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 100;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 15px;
+    font-weight: 100;
+    font-weight: 200;
+}
+
  
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    position: sticky;
+    top: 0px;
+    
+
+}
+
+header .left-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+}
+
+header .left-part .watchmanlogo{
+    width: 35px;
+    height: 35px;
+ 
+}
+
+header .left-part .watchmanlogo img{
+    width: 100%;
+}
+
+
+header .left-part .parish{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+header .left-part .parish h1{
+    padding: 0px;
+    margin: 0px;
+}
+
+header .left-part .parish h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+header .input{
+     padding-right: 15px;
+    
+}
+
+header .input input{
+    width: 300px;
+    height: 20px;
+    background-color: #f1f3f4;
+    border: 1px solid whitesmoke;
+    color: white;
+   
+}
+
+
+.app-body{
+    display:flex;
+}
+
+.app-bdy{
+    overflow-y: hidden;
+}
+
+.hp-body{
+   height: 90vh;
+   overflow-x: scroll;
+}
+.body{
+    width: 100%;
+    display: flex;
+    padding-top: 5px;
+}
+
+ 
+.body .side-bar{
+    border-right:1px solid white;
+    position: sticky;
+    top: 100px;
+    height: 200px;
+}
+
+.body .messages{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.body .messages .m1{
+    width: 250px;
+    display: grid;
+    justify-content: center;
+    height: 300px;
+    border: 1px solid #eae7e7;
+    margin:3px;
+    grid-template-rows:70%, 30%;
+}
+
+ .m2{
+   border: 1px solid #eae7e7;
+   width: 100%;
+   height: 150px;
+   border-radius: 5px;
+   margin-bottom: 2px;
+   }
+
+ .body .messages .m1 .m2-footer {
+    display: flex;
+ }
+
+   .body .messages .m1 .m2-footer .profile-pic{
+    background-color: whitesmoke;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+   }
+
+   .body .messages .m1 .m2-footer .m2-sidebar{
+    display: flex;
+   }
+
+   .side-bar{
+    display: grid;
+    height: 500px;
+   }
